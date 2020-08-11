@@ -1,7 +1,7 @@
 # My ST Fork
 Heavily patched [suckless terminal](https://st.suckless.org/)
-Version: st 0.8.4 (2020-06-19)
-Nord theme, emoji support and [Luke Smith](https://github.com/LukeSmithxyz)' s scripts added
+- Version: st 0.8.4 (2020-06-19)
+- Nord theme, emoji support and [Luke Smith](https://github.com/LukeSmithxyz)' s scripts added
 
 ## Patches
 - alpha-0.8.2
