@@ -14,7 +14,7 @@ static char *font2[] = {
 "Font Awesome 5 Free:style=Solid:pixelsize=11:antialias=true:autohint=true"
 };
 
-static int borderpx = 2;
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -114,7 +114,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.80;
+float alpha = 0.85;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
