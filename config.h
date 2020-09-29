@@ -8,10 +8,11 @@
 static char *font = "JetBrains Mono Medium:pixelsize=17:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-"FontAwesome5Free:pixelsize=15:antialias=true:autohint=true",
+"FontAwesome5Free:pixelsize=17:antialias=true:autohint=true",
 "FontAwesome5Brands:pixelsize=17:antialias=true:autohint=true",
-"JoyPixels:pixelsize=10:antialias=true:autohint=true",
-"Font Awesome 5 Free:style=Solid:pixelsize=11:antialias=true:autohint=true"
+"JoyPixels:pixelsize=13:antialias=true:autohint=true",
+"FontAwesome5Free:style=Solid:pixelsize=14:antialias=true:autohint=true",
+"Symbola:pixelsize=17:antialias=true:autohint=true"
 };
 
 static int borderpx = 1;
@@ -112,10 +113,10 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4; // Default 8
 
 /* bg opacity */
-float alpha = 0.9;
+float alpha = 0.85;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
