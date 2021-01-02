@@ -8,14 +8,14 @@
 static char *font = "JetBrains Mono Medium:pixelsize=17:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-"FontAwesome5Free:pixelsize=17:antialias=true:autohint=true",
-"FontAwesome5Brands:pixelsize=17:antialias=true:autohint=true",
-"JoyPixels:pixelsize=13:antialias=true:autohint=true",
+"FontAwesome5Free:pixelsize=14:antialias=true:autohint=true",
+"FontAwesome5Brands:pixelsize=14:antialias=true:autohint=true",
+"JoyPixels:pixelsize=14:antialias=true:autohint=true",
 "FontAwesome5Free:style=Solid:pixelsize=14:antialias=true:autohint=true",
-"Symbola:pixelsize=17:antialias=true:autohint=true"
+"Symbola:pixelsize=14:antialias=true:autohint=true"
 };
 
-static int borderpx = 1;
+static int borderpx = 2;
 
 
 /*
